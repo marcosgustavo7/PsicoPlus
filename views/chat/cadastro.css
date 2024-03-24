@@ -1,0 +1,173 @@
+
+
+
+
+#div_cpf{
+    margin-left: 42%;
+
+    
+    width: 230px;
+    height: 50px;
+
+}
+
+#div_nome{
+       
+        margin-left: 42%;
+        width: 230px;
+        height: 50px;
+  
+}
+
+.letras{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3b3b3b;
+}
+
+#nome{
+    margin-top: 2%;
+    margin-left:0%;
+    border: 1px solid rgb(129, 129, 129);
+    display: flex;
+    width: 220px;
+    height: 20px;
+    background-color: #d9d9d9;
+}
+
+#div_telefone{
+    margin-left: 42%;
+    width: 230px;
+    height: 50px;
+}
+
+#telefone{
+    margin-top: 2%;
+    margin-left:0%;
+    border: 1px solid rgb(129, 129, 129);
+    display: flex;
+    width: 220px;
+    height: 20px;
+    background-color: #d9d9d9;
+}
+
+#div_idade{
+    margin-left: 42%;
+    width: 230px;
+    height: 50px;
+}
+#idade{
+    margin-top: 2%;
+    margin-left:0%;
+    border: 1px solid rgb(129, 129, 129);
+    display: flex;
+    width: 220px;
+    height: 20px;
+    background-color: #d9d9d9;
+}
+
+
+
+#cpf{
+    margin-top: 2%;
+    margin-left:0%;
+    border: 1px solid rgb(129, 129, 129);
+    display: flex;
+    width: 220px;
+    height: 20px;
+    background-color: #d9d9d9;
+}
+
+#div_senha{
+    margin-left: 42%;
+    margin-top: 0%;
+ 
+    
+    width: 230px;
+    height: 50px;
+
+}
+
+#senha{
+    margin-top: 2%;
+    margin-left:0%;
+    border: 1px solid rgb(129, 129, 129);
+    display: flex;
+    width: 220px;
+    height: 20px;
+    background-color: #d9d9d9;
+}
+
+
+
+
+.voltar{
+    margin-left: 500%;
+    margin-top: 1%;
+    background-color: green;
+    width: 90px;
+    height: 45px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 3.5mm;
+    font-weight: bolder;
+    border: 0.5px solid #b3b3b3;
+    cursor: pointer;
+}
+
+
+
+#cadastrar{
+    margin-left: 200%;
+    margin-top: -36%;
+    background-color: green;
+    width: 90px;
+    height: 45px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 3.5mm;
+    font-weight: bolder;
+    border: 0.5px solid #b3b3b3;
+    cursor: pointer;
+}
+
+#letrad{
+    margin-bottom: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+@media (max-width: 700px){
+
+    #cadastrar{
+        margin-right: 100%;
+        margin-left: 0%;
+        margin-top: -15%;
+        background-color: green;
+        width: 60px;
+        height: 25px;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 2.5mm;
+        border: 0.5px solid #b3b3b3;
+        cursor: pointer;
+    }
+
+    
+.voltar{
+    
+    margin-left: 300%;
+    margin-top: 60%;
+    background-color: green;
+    width: 60px;
+    height: 25px;
+    font-size: 2.5mm;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 0.5px solid #b3b3b3;
+    cursor: pointer;
+}
+
+
+}

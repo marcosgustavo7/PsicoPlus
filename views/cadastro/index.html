@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> PsicoPlus </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+</head>
+<body>
+    
+    <header class="container text-center">
+   
+        <a href="../listar_funcionarios/index.php"> <img  src="../../img/PSICOPLUS(1).png" alt=""> </img></a>
+    </header>
+
+    <div class="container text-left">
+        <h2 id="cadastro"> Cadastrar Funcionário </h2>
+
+
+            <form class="form-group" action="../../controller/FuncionarioController.php" method="post" name="cad">
+                <div class="form-group" id="div_nome">
+                <label class="letras"> Nome: </label>
+                <input class="form-control" type="text" id="nome" name="nome" required />
+                </div>
+                <div class="form-group" id="div_cpf">
+                <label class="letras"> CPF: </label>
+                <input class="form-control" type="text" id="cpf" name="cpf" required />
+            </div>
+
+            <div class="form-group" id="div_telefone">
+                <label class="letras"> Telefone: </label>
+                <input class="form-control" type="tel" id="telefone" name="telefone" required />
+            </div>
+            <div class="form-group" id="div_idade">
+                <label class="letras"> Idade: </label>
+                 <input class="form-control" type="tel" id="idade" name="idade" required />
+            </div>
+            <div class="form-group" id="div_senha">
+                <label class="letras"> Senha: </label>
+                <input class="form-control" type="password" id="senha" name="senha" required />
+            </div>
+            
+            <div class="container text-right">
+               <button class="btn btn-primary h-100" type="submit" id="cadastrar" name="cadastrar" href="">Adicionar</button>
+            </div>
+              <!-- <button> <a href="../../" style="text-decoration:none;"> VOLTAR </a> </button> --> 
+        </form>
+    </div>
+    
+    
+
+</body>
+</html>

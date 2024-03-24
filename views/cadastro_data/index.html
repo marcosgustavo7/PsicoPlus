@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> PsicoPlus </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+</head>
+<body >
+    <header class="container text-center">
+       <a href="../listar_datas/index.php"> <img  src="../../img/PSICOPLUS(1).png" alt=""> </img></a> 
+    </header>
+    <div id="logo"  class="container text-center" style="margin-top: 3%; padding: 5%;">
+        
+        
+
+    <h2> Cadastrar Datas </h2>
+
+            <form action="../../controller/DataController.php" method="post" name="cad">
+
+                <div class="form-group text-left" id="div_data">
+                    <label> Data: </label>
+                    <input type="date" class="form-control" id="data" name="data" required />
+                </div>
+               <button class="btn btn-primary w-30" type="submit" id="cadastrar" name="cadastrar" href="" style="height:40px;">Adicionar</button>
+              <!-- <button> <a href="../../" style="text-decoration:none;"> VOLTAR </a> </button> --> 
+        </form>
+    </div>
+
+</body>
+</html>
